@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    --tw-text-opacity: 1;
+    color: rgb(29 78 216 / var(--tw-text-opacity));
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+li {
+    margin-left: 12px;
+    padding-left: 4px;
+}
+ol li {
+    list-style-type:decimal;
+}
+ul li {
+    list-style-type: disc;
+}
+
+pre {
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, .1);;
+    background: rgba(0, 0, 0, .02);
+    padding: 6px;
+    border-radius: 4px;
+}

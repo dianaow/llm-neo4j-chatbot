@@ -1,0 +1,45 @@
+{
+  "name": "llm-chatbot-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "cross-env DOTENV_CONFIG_PATH=./.env.local jest",
+    "test:watch": "cross-env DOTENV_CONFIG_PATH=./.env.local jest --watchAll --detectOpenHandles"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "@langchain/community": "^0.0.44",
+    "@langchain/core": "^0.1.48",
+    "@langchain/openai": "^0.0.11",
+    "@neo4j-cypher/language-support": "^2.0.0-next.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.0",
+    "iron-session": "^8.0.1",
+    "langchain": "^0.1.28",
+    "marked": "^10.0.0",
+    "neo4j-driver": "^5.14.0",
+    "next": "14.0.2",
+    "openai": "^4.20.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
